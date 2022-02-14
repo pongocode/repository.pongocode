@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repo.pongocode" name="[COLOR orchid]PongoCode REPO[/COLOR]" provider-name="Pongo" version="0.1">
+
+	<extension point="xbmc.addon.repository" name="Pongo Repo" >
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master/_zip</datadir>
+			</dir>
+
+			<dir>
+			<info compressed="false">https://raw.githubusercontent.com/thecrewwh/zips/master/matrix/_zip/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/thecrewwh/zips/master//matrix/_zip/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/thecrewwh/zips/master//matrix/_zip</datadir>
+			</dir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Code for hobby.</summary>
+		<description lang="en">Python is hard.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<disclaimer lang="en">No affiliation with any of the content providers. This addon simply parses websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/1.png</screenshot>
+			<screenshot>resources/2.png</screenshot>
+			<screenshot>resources/3.png</screenshot>
+		</assets>
+	</extension>
+</addon>
